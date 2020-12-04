@@ -2,6 +2,8 @@
 using namespace std;
 int main()
 {
-	cout << "Hello World!xiaowangwang!" << endl;
+	char name[40];
+	cin >> name;
+	cout << "Hello, " << name << " welcome to github!" << endl;
 	return 0;
 }
